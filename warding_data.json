@@ -1,0 +1,2507 @@
+{
+  "wards": [
+    {
+      "ward_id": "ward_blood_bear",
+      "ward_name": "Bear",
+      "ward_category": "blood",
+      "quote": "something",
+      "dougs_grade": 5.2,
+      "raw_text": "The blood of a bear, worn as a second skin, forgoes fear and domination. +4 Warding vs Mind-Altering spells. "
+    },
+    {
+      "ward_id": "ward_blood_bird",
+      "ward_name": "Bird",
+      "ward_category": "blood",
+      "quote": "something",
+      "dougs_grade": 1.9,
+      "raw_text": "The blood of a bird smeared over the face guarantees freedom from magical chains and bindings. +6 Warding vs Mobility-reducing effects. "
+    },
+    {
+      "ward_id": "ward_blood_cat",
+      "ward_name": "Cat",
+      "ward_category": "blood",
+      "quote": "something",
+      "dougs_grade": 2.4,
+      "raw_text": "Taken from a black cat with nary a speck of white, and daubed at the arm-pits, groin and neck, a counter-charm. +2 Warding. "
+    },
+    {
+      "ward_id": "ward_blood_child",
+      "ward_name": "Child",
+      "ward_category": "blood",
+      "quote": "something",
+      "dougs_grade": 0.4,
+      "raw_text": "An extreme rite reserved by the Druids. The life of one for the protection of another. "
+    },
+    {
+      "ward_id": "ward_blood_dog",
+      "ward_name": "Dog",
+      "ward_category": "blood",
+      "quote": "something",
+      "dougs_grade": 7.5,
+      "raw_text": "Douse the hands and lips in the blood of a hound and know your form and freedom. +3 Warding vs Body-Affecting spells. "
+    },
+    {
+      "ward_id": "ward_blood_fish",
+      "ward_name": "Fish",
+      "ward_category": "blood",
+      "quote": "something",
+      "dougs_grade": 0.4,
+      "raw_text": "The alien blood of fish, rubbed into the scalp, confuses and repels the spirits of the land. +2 Warding vs land-bound spirits. "
+    },
+    {
+      "ward_id": "ward_blood_horse",
+      "ward_name": "Horse",
+      "ward_category": "blood",
+      "quote": "something",
+      "dougs_grade": 4.6,
+      "raw_text": "A bath of horse-blood marks a warrior as ready to die by weapons, not sor-cery. +3 Warding vs mortal magic users. "
+    },
+    {
+      "ward_id": "ward_blood_whale",
+      "ward_name": "Whale",
+      "ward_category": "blood",
+      "quote": "something",
+      "dougs_grade": 6.6,
+      "raw_text": "The blood of the deep, rich in evil and malice, drunk til the belly rejects it and vomits it back out as pink foam. "
+    },
+    {
+      "ward_id": "ward_blood_wolf",
+      "ward_name": "Wolf",
+      "ward_category": "blood",
+      "quote": "something",
+      "dougs_grade": 5.3,
+      "raw_text": "Drinking deeply of wolf-blood with companions creates a bond against en-chantment. +1 Warding per companion also drinking of wolf-blood to a maximum of +5. "
+    },
+    {
+      "ward_id": "ward_betony",
+      "ward_name": "Betony",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 3.7,
+      "raw_text": "A purple flowering plant. Worn as a garland, it protects against the spirits of the dead. Chewed and eaten at dusk, it protects the imbiber against sorcery until the sun next rises. It can also undo paralytic magics if applied to victims as an unguent. +4 Warding vs Ghosts. +6 Warding vs Spells at night. Re-roll Save against Paralysing magic at +4."
+    },
+    {
+      "ward_id": "ward_casting_away",
+      "ward_name": "Casting-Away",
+      "ward_category": "ritual",
+      "quote": "something",
+      "dougs_grade": 1.8,
+      "raw_text": "The casting away of weapons, shoes and humans is a charmto pre-empt related mis-fortune. Splitting open the skull of a magician grants +3 Warding for the duration of a journey."
+    },
+    {
+      "ward_id": "ward_chanting",
+      "ward_name": "Chanting",
+      "ward_category": "ritual",
+      "quote": "something",
+      "dougs_grade": 10,
+      "raw_text": "Chanting the names of saints, the titles of a singular god or the names of a pantheon grant a modicum of protection. This must be done for 3 concurrent rounds to have an effect, granting +1 Warding. Such Chanting can be done for d6 rounds +1 per point of Constitution above 10."
+    },
+    {
+      "ward_id": "ward_cold_stones",
+      "ward_name": "Cold-Stones",
+      "ward_category": "object",
+      "quote": "something",
+      "dougs_grade": 6.7,
+      "raw_text": "Flat heavy pebbles painted with the geometric magic of the Pictish druids. Ran across the brow of one beleaguered by magical ailments, they are said to allevi-ate symptoms. Carried in the pocket, they provide some small luck. Re-roll Save against Disease/Poison magic at +6. +1 Warding."
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "ward_name": "Cowslip",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 6.5,
+      "raw_text": "Yellow flowers and a stem said to prophecy the seasons. A tea made from the petals protects against ailments natural and otherworldly. +2 Warding vs Disease/Poison magic."
+    },
+    {
+      "ward_id": "ward_dragon_arum",
+      "ward_name": "Dragon Arum",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 8.9,
+      "raw_text": "A flower from southern climes which stinks like rotting meat. The oil squeezed from the fleshy petals protects against serpents and sea-monsters. Cooked, the leaves are an abortifacient. +5 Warding vs Serpentine or Sea-Monster effects. If a petal is aboard a ship, re-roll the first River/Sea-Monster encounter per journey."
+    },
+    {
+      "ward_id": "ward_dogs",
+      "ward_name": "Dogs",
+      "ward_category": "animal",
+      "quote": "something",
+      "dougs_grade": 3.1,
+      "raw_text": "What has not been said of loyal companions whose senses extend beyond human sight, human hearing and human sensitivity? A ghost-white hound protects the heart, a red dog the mind, and a dog raised in a church the soul. +1 Warding vs Fear effects. +2 Warding vs Mind-Altering effects. +1 Warding. These benefits can be concurrent with other charms, although only one dog may be benefited from."
+    },
+    {
+      "ward_id": "ward_elecampane",
+      "ward_name": "Elecampane",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 2.5,
+      "raw_text": "Bright yellow flowers, open to the world and drinking it in. Those in Albann know it as a sign of elves, and leave it well alone. Eaten, others know it to fortify healing magics and protect the lungs. Warding automatically fails vs Elves. +1 to Healing rolls from magical sources. +4 Warding vs Inhaled effects."
+    },
+    {
+      "ward_id": "ward_eye_talismans",
+      "ward_name": "Eye Talismans",
+      "ward_category": "object",
+      "quote": "something",
+      "dougs_grade": 5.8,
+      "raw_text": "Blue, white and black, the circles ensnare one another and form a mirror for ma-lignant gazes and glares. +2 Warding vs Gaze-based magic. Successful saves cause the sources to also make a Warding save."
+    },
+    {
+      "ward_id": "ward_faces",
+      "ward_name": "Faces",
+      "ward_category": "ritual",
+      "quote": "something",
+      "dougs_grade": 2.5,
+      "raw_text": "The face of a monster seen, slain and recreated in paint upon a shield grants +3 Warding against any who have not seen such a creature. This benefit can be con-current with other charms."
+    },
+    {
+      "ward_id": "ward_gargoyles",
+      "ward_name": "Gargoyles",
+      "ward_category": "object",
+      "quote": "something",
+      "dougs_grade": 2.4,
+      "raw_text": "Leering figures and depictions of evil greater than the terrors that stalk the earth, or so it is hoped. Supernatural beings make a Morale Check. On failure, bearer takes +3 Warding vs them."
+    },
+    {
+      "ward_id": "ward_hazel",
+      "ward_name": "Hazel",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 7.8,
+      "raw_text": "The hazel-tree affords protection to those who shelter beneath her branches. Some small nugget of this is remains within the nuts she spreads upon the ground, which protect against all things that creep upon the earth. +4 Warding for those beneath the branches - this benefit may be concurrent with other charms. +1 Warding vs all and an additional +3 Warding vs legless beasts."
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "ward_name": "Hawthorn",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 8.8,
+      "raw_text": "Known for its pungent smell, this stink permeates across realities. This stench un-weaves and undoes the magics of the dead. Destroying a Hawthorn is a cursed act. +5 Warding vs Spirits and Undead. -6 Warding for 2 years."
+    },
+    {
+      "ward_id": "ward_heather",
+      "ward_name": "Heather",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 5,
+      "raw_text": "The highlands of Fortu are purple and white with heather. Ale made of the purple is said to give luck and courage in equal measure. The white, which grows only where no blood has been shed, is said to be a charm against violence when worn. 1 Ward-ing or +2 Warding vs Fear effects. Automatic Save once against damage-dealing magical effect - but the sprig is destroyed."
+    },
+    {
+      "ward_id": "ward_hellebore",
+      "ward_name": "Hellebore",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 9.4,
+      "raw_text": "Flowers in many colours, none to be trifled with. The black purges the mind and body, explosively. The white numbs pain and distances the imbiber from reality. The green is said to be a cure for sadness, although this is just a cruel joke. Re-roll Warding vs Mind-Altering effects at +6 - regardless of success, bed-bound with vi-olent diarrhoea. No effect. Physique save or painful death."
+    },
+    {
+      "ward_id": "ward_herb_paris",
+      "ward_name": "Herb Paris",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 5.2,
+      "raw_text": "A leafy plant producing but one single berry. Crushed and smeared on the brow, it prevents the mind being bewitched. Eaten whole, it is poisonous. +4 Warding vs Mind Altering effects. Physique save or painful death."
+    },
+    {
+      "ward_id": "ward_holly",
+      "ward_name": "Holly",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 9.8,
+      "raw_text": "The prickly rich-green leaves of the holly nestle rich red berries in the deepest win-ter. Wearing the leaves in the hair protects against enchantment. The berries, worn in a bunch, repel lightning. +2 Warding. +6 Warding vs Lightning-based effects."
+    },
+    {
+      "ward_id": "ward_horses",
+      "ward_name": "Horses",
+      "ward_category": "animal",
+      "quote": "something",
+      "dougs_grade": 2.5,
+      "raw_text": "The work of an animal does not end in death. The skull of a horse with a name makes for a cumbersome protective charm. If still enrobed in flesh, the head is a dire curse.\n+3 Warding. 1-in-6 chance of splitting per successful save. "
+    },
+    {
+      "ward_id": "ward_horseshoes",
+      "ward_name": "Horseshoes",
+      "ward_category": "object",
+      "quote": "something",
+      "dougs_grade": 0.3,
+      "raw_text": "A perennial charm of fortune. +1 Warding. If purchased for this purpose, no effect - they must be found, or stolen. "
+    },
+    {
+      "ward_id": "ward_ivy",
+      "ward_name": "Ivy",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 8.9,
+      "raw_text": "Creeping vines bind buildings tight and worm through the smallest gaps. Those within are protected from magics flung towards the building. +3 Warding for all inside. This benefit can be concurrent with other charms."
+    },
+    {
+      "ward_id": "ward_mullein",
+      "ward_name": "Mullein",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 5.8,
+      "raw_text": "A candle made of these leaves gives a low, guttering flame. Those within the meagre light of such a candle are protected from the machinations and enchantments of witches. +6 Warding vs mortal magic users."
+    },
+    {
+      "ward_id": "ward_oak",
+      "ward_name": "Oak",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 7.2,
+      "raw_text": "A wood of stout reputation and deep strength. A shield of oak stops magic as well as blades. A pocket of acorns protects against all comers, and a leaf around the neck cuts through illusions. A shield of oak may be sacrificed to add +6 to a failed Ward-ing save. +1 Warding. +4 Warding vs Illusions."
+    },
+    {
+      "ward_id": "ward_penises",
+      "ward_name": "Penises",
+      "ward_category": "object",
+      "quote": "something",
+      "dougs_grade": 8,
+      "raw_text": "Invaders from the south bore charms of winged penises - the laughter they caused said to distract malign forces. +1 Warding. +2 Warding if a ribald joke is made using the charm."
+    },
+    {
+      "ward_id": "ward_pocket_figures",
+      "ward_name": "Pocket Figures",
+      "ward_category": "object",
+      "quote": "something",
+      "dougs_grade": 4.7,
+      "raw_text": "Carved figures of saints, gods and heroes are widespread and multivarious. Each has a story, and are said to protect from that which they overcame. Heroes and Saints grant +2 Warding against that which they overcame in their stories. Gods grant +1 Warding against things within their dominion, and against anything they opposed."
+    },
+    {
+      "ward_id": "ward_rosemary",
+      "ward_name": "Rosemary",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 8,
+      "raw_text": "Blue flowers and green-needles sprout from this storied plant. A garland of flowers worn or a twig carried protects against invisible things. +4 Warding vs Spirits and incorporeal beings."
+    },
+    {
+      "ward_id": "ward_rowan",
+      "ward_name": "Rowan",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 8.6,
+      "raw_text": "The orange-red berries of the rowan are each marked with a five-pointed star - an indicator of their potency. Ground to a paste and smeared on a shield, they protect the wielder. +4 Warding til the paste dries entirely (~2 Hours)."
+    },
+    {
+      "ward_id": "ward_rue",
+      "ward_name": "Rue",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 4.1,
+      "raw_text": "Blue-green leaves also known as witchbane, and for good reason. A bundle of leaves canbeburnt, thoseinhalingthesmoke protectedagainstmagic. +3 Wardingvs mor-tal magic users. Those breathing this smoke are unable to cast spells. Lasts 4 hours."
+    },
+    {
+      "ward_id": "ward_sulphur",
+      "ward_name": "Sulphur",
+      "ward_category": "mineral",
+      "quote": "something",
+      "dougs_grade": 4,
+      "raw_text": "A mineral eager to burn and release its terrible stink, all those breathing in the pun-gent smoke fall to retching but are purified of foul enchantment. Re-roll Warding at +6. Physique save to not lose d6 rounds to vomiting."
+    },
+    {
+      "ward_id": "ward_verbena",
+      "ward_name": "Verbena",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 2.8,
+      "raw_text": "The purple flowers of the Verbena, worn in a pocket, distract malign forces. +3 Warding. After a single successful save, the flower withers and becomes useless."
+    },
+    {
+      "ward_id": "ward_writing",
+      "ward_name": "Writing",
+      "ward_category": "ritual",
+      "quote": "something",
+      "dougs_grade": 0.4,
+      "raw_text": "The written word, whether latin script or ancient runes, has a magic of its own and can protect against other forms. Markings in common materials give +1 Warding against exactly what they describe. Markings in sea-beast ink and monster-blood taken from a 5HD+ creature grant +2 Warding against a category of threat. Runes in crushed diamond mixed with royal blood may grant +3 Warding forever more, power condensed into a single phrase or marking. Sea-beast ink and monster-blood may be used to create tattoos, which grant +1 Warding permanently. This benefit can be concurrent with other charms. Up to two such tattoos may be worn, but the second must be sourced from a higher HD creature than the first."
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "ward_name": "Yarrow",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 1.5,
+      "raw_text": "White and lilac flowers, pounded to a poultice and spread upon the back, are said to instill bravery enough to face down the unworldly. +6 Warding vs Fear effects."
+    },
+    {
+      "ward_id": "ward_yew",
+      "ward_name": "Yew",
+      "ward_category": "plant",
+      "quote": "something",
+      "dougs_grade": 6.5,
+      "raw_text": "Another storied tree, the berries used to avoid capture - the eaters escaping into death. It has authority over the dead, and demands they remain asleep. Shields of yew carry this charm with them. +4 Warding vs effects from the undead beneath a Yew tree. +3 Warding for a yew-shield bearer."
+    }
+  ],
+  "effects": [
+    {
+      "effect_id": "eff_blood_bear",
+      "ward_id": "ward_blood_bear",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+4",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "worn",
+      "applies_against_general": "mental_control",
+      "applies_against_specific": "mind_altering",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Forgoes fear & domination"
+    },
+    {
+      "effect_id": "eff_blood_bird",
+      "ward_id": "ward_blood_bird",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+6",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "smeared_face",
+      "applies_against_general": "mental_control",
+      "applies_against_specific": "mobility_reducing",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Freedom from magical chains"
+    },
+    {
+      "effect_id": "eff_blood_cat",
+      "ward_id": "ward_blood_cat",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+2",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "daubed",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Counter-charm"
+    },
+    {
+      "effect_id": "eff_blood_child",
+      "ward_id": "ward_blood_child",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+6",
+      "activation_method_general": "ritual",
+      "activation_method_specific": "ritual",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Extreme druidic rite"
+    },
+    {
+      "effect_id": "eff_blood_dog",
+      "ward_id": "ward_blood_dog",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+3",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "doused",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "body_affecting",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_blood_fish",
+      "ward_id": "ward_blood_fish",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+2",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "rubbed_scalp",
+      "applies_against_general": "undead_spirit_threats",
+      "applies_against_specific": "incorporeal",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_blood_horse",
+      "ward_id": "ward_blood_horse",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+3",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "bathed",
+      "applies_against_general": "magic_users",
+      "applies_against_specific": "mortal_magic_users",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_blood_whale",
+      "ward_id": "ward_blood_whale",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+4",
+      "activation_method_general": "consumption",
+      "activation_method_specific": "drunk_and_purged",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_blood_wolf",
+      "ward_id": "ward_blood_wolf",
+      "bonus_type": "scaling_bonus",
+      "bonus_value": "+1 per companion",
+      "activation_method_general": "consumption",
+      "activation_method_specific": "drunk",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "enchantment",
+      "duration_type": "continuous",
+      "duration_value": "max +5",
+      "notes": "All companions must drink"
+    },
+    {
+      "effect_id": "eff_betony_1",
+      "ward_id": "ward_betony",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+4",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "worn",
+      "applies_against_general": "undead_spirit_threats",
+      "applies_against_specific": "incorporeal",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "+4 Warding vs Ghosts"
+    },
+    {
+      "effect_id": "eff_betony_2",
+      "ward_id": "ward_betony",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+6",
+      "activation_method_general": "consumption",
+      "activation_method_specific": "eaten_at_dusk",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "spells",
+      "duration_type": "fixed_time",
+      "duration_value": "until_sunrise",
+      "notes": "+6 Warding vs Spells at night"
+    },
+    {
+      "effect_id": "eff_betony_3",
+      "ward_id": "ward_betony",
+      "bonus_type": "reroll_bonus",
+      "bonus_value": "+4",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "unguent",
+      "applies_against_general": "mental_control",
+      "applies_against_specific": "paralysing_magic",
+      "duration_type": "single_trigger",
+      "duration_value": null,
+      "notes": "Re-roll save vs Paralysing magic at +4"
+    },
+    {
+      "effect_id": "eff_casting_away_1",
+      "ward_id": "ward_casting_away",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+4",
+      "activation_method_general": "ritual",
+      "activation_method_specific": "casting_away",
+      "applies_against_general": "undead_spirit_threats",
+      "applies_against_specific": "incorporeal",
+      "duration_type": "single_trigger",
+      "duration_value": null,
+      "notes": "Applies when casting away a spirit"
+    },
+    {
+      "effect_id": "eff_chanting_1",
+      "ward_id": "ward_chanting",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+1",
+      "activation_method_general": "ritual",
+      "activation_method_specific": "chanted",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": "while_chanting_min_3_rounds",
+      "notes": "Requires 3 consecutive rounds; duration d6 + Con mod (see text)"
+    },
+    {
+      "effect_id": "eff_cold_stones_1",
+      "ward_id": "ward_cold_stones",
+      "bonus_type": "reroll_bonus",
+      "bonus_value": "+6",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "ran_across_brow",
+      "applies_against_general": "elemental_energy_damage",
+      "applies_against_specific": "disease_poison",
+      "duration_type": "single_trigger",
+      "duration_value": null,
+      "notes": "Re-roll Save vs Disease/Poison magic at +6"
+    },
+    {
+      "effect_id": "eff_cold_stones_2",
+      "ward_id": "ward_cold_stones",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+1",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "carried",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Provides small luck when carried in pocket"
+    },
+    {
+      "effect_id": "eff_cowslip_1",
+      "ward_id": "ward_cowslip",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+2",
+      "activation_method_general": "consumption",
+      "activation_method_specific": "eaten",
+      "applies_against_general": "elemental_energy_damage",
+      "applies_against_specific": "disease_poison",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Tea from petals protects vs natural & otherworldly ailments"
+    },
+    {
+      "effect_id": "eff_dragon_arum_1",
+      "ward_id": "ward_dragon_arum",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+5",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "oil_applied",
+      "applies_against_general": "creature_specific",
+      "applies_against_specific": "serpentine",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Also applies vs Sea-Monster effects"
+    },
+    {
+      "effect_id": "eff_dragon_arum_2",
+      "ward_id": "ward_dragon_arum",
+      "bonus_type": "reroll_bonus",
+      "bonus_value": "first_encounter",
+      "activation_method_general": "environmental",
+      "activation_method_specific": "aboard_ship",
+      "applies_against_general": "creature_specific",
+      "applies_against_specific": "sea_monster",
+      "duration_type": "fixed_time",
+      "duration_value": "journey",
+      "notes": "Re-roll first River/Sea-Monster encounter per journey"
+    },
+    {
+      "effect_id": "eff_dogs_1",
+      "ward_id": "ward_dogs",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+1",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "companion_present",
+      "applies_against_general": "mental_control",
+      "applies_against_specific": "fear",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Only one dog may be benefited from"
+    },
+    {
+      "effect_id": "eff_dogs_2",
+      "ward_id": "ward_dogs",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+2",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "companion_present",
+      "applies_against_general": "mental_control",
+      "applies_against_specific": "mind_altering",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_dogs_3",
+      "ward_id": "ward_dogs",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+1",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "companion_present",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Concurrent with other charms"
+    },
+    {
+      "effect_id": "eff_elecampane_1",
+      "ward_id": "ward_elecampane",
+      "bonus_type": "auto_fail",
+      "bonus_value": "auto_fail",
+      "activation_method_general": "consumption",
+      "activation_method_specific": "eaten",
+      "applies_against_general": "creature_specific",
+      "applies_against_specific": "elves",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Warding automatically fails vs Elves"
+    },
+    {
+      "effect_id": "eff_elecampane_2",
+      "ward_id": "ward_elecampane",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+1",
+      "activation_method_general": "consumption",
+      "activation_method_specific": "eaten",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "healing_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Bonus to magical healing rolls"
+    },
+    {
+      "effect_id": "eff_elecampane_3",
+      "ward_id": "ward_elecampane",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+4",
+      "activation_method_general": "consumption",
+      "activation_method_specific": "eaten",
+      "applies_against_general": "elemental_energy_damage",
+      "applies_against_specific": "inhaled_effects",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_eye_1",
+      "ward_id": "ward_eye_talismans",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+2",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "charm_carried",
+      "applies_against_general": "mental_control",
+      "applies_against_specific": "gaze_based",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_eye_2",
+      "ward_id": "ward_eye_talismans",
+      "bonus_type": "conditional_bonus",
+      "bonus_value": "reflect_save",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "charm_carried",
+      "applies_against_general": "mental_control",
+      "applies_against_specific": "gaze_based",
+      "duration_type": "single_trigger",
+      "duration_value": null,
+      "notes": "Successful saves force source to make Warding save"
+    },
+    {
+      "effect_id": "eff_faces_1",
+      "ward_id": "ward_faces",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+3",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "painted_on_shield",
+      "applies_against_general": "creature_specific",
+      "applies_against_specific": "unfamiliar_creature",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Applies vs those who have not seen such a creature; concurrent with charms"
+    },
+    {
+      "effect_id": "eff_gargoyles_1",
+      "ward_id": "ward_gargoyles",
+      "bonus_type": "conditional_bonus",
+      "bonus_value": "+3",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "structural_display",
+      "applies_against_general": "creature_specific",
+      "applies_against_specific": "incorporeal",
+      "duration_type": "single_trigger",
+      "duration_value": "morale_fail",
+      "notes": "If Morale Check fails, bearer gains +3 Warding vs them"
+    },
+    {
+      "effect_id": "eff_hazel_1",
+      "ward_id": "ward_hazel",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+4",
+      "activation_method_general": "environmental",
+      "activation_method_specific": "beneath_tree",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Concurrent with other charms"
+    },
+    {
+      "effect_id": "eff_hazel_2",
+      "ward_id": "ward_hazel",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+1",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "carried",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_hazel_3",
+      "ward_id": "ward_hazel",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+3",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "carried",
+      "applies_against_general": "creature_specific",
+      "applies_against_specific": "legless_beasts",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_hawthorn_1",
+      "ward_id": "ward_hawthorn",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+5",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "present",
+      "applies_against_general": "undead_spirit_threats",
+      "applies_against_specific": "incorporeal",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_hawthorn_2",
+      "ward_id": "ward_hawthorn",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "-6",
+      "activation_method_general": "ritual",
+      "activation_method_specific": "destroyed",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "fixed_time",
+      "duration_value": "2_years",
+      "notes": "Penalty applies if Hawthorn destroyed"
+    },
+    {
+      "effect_id": "eff_heather_1",
+      "ward_id": "ward_heather",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+1",
+      "activation_method_general": "consumption",
+      "activation_method_specific": "drunk",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Purple ale grants luck and courage"
+    },
+    {
+      "effect_id": "eff_heather_2",
+      "ward_id": "ward_heather",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+2",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "worn",
+      "applies_against_general": "mental_control",
+      "applies_against_specific": "fear",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "White sprig vs violence/fear"
+    },
+    {
+      "effect_id": "eff_heather_3",
+      "ward_id": "ward_heather",
+      "bonus_type": "auto_success",
+      "bonus_value": "auto",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "worn",
+      "applies_against_general": "elemental_energy_damage",
+      "applies_against_specific": "damage_magic",
+      "duration_type": "single_trigger",
+      "duration_value": null,
+      "notes": "Sprig destroyed after automatic save"
+    },
+    {
+      "effect_id": "eff_hellebore_1",
+      "ward_id": "ward_hellebore",
+      "bonus_type": "reroll_bonus",
+      "bonus_value": "+6",
+      "activation_method_general": "consumption",
+      "activation_method_specific": "eaten",
+      "applies_against_general": "mental_control",
+      "applies_against_specific": "mind_altering",
+      "duration_type": "single_trigger",
+      "duration_value": null,
+      "notes": "Bed-bound with violent illness regardless of success"
+    },
+    {
+      "effect_id": "eff_hellebore_2",
+      "ward_id": "ward_hellebore",
+      "bonus_type": "auto_fail",
+      "bonus_value": "death",
+      "activation_method_general": "consumption",
+      "activation_method_specific": "eaten",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "single_trigger",
+      "duration_value": "physique_fail",
+      "notes": "Physique save or painful death"
+    },
+    {
+      "effect_id": "eff_herb_paris_1",
+      "ward_id": "ward_herb_paris",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+4",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "smeared",
+      "applies_against_general": "mental_control",
+      "applies_against_specific": "mind_altering",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_herb_paris_2",
+      "ward_id": "ward_herb_paris",
+      "bonus_type": "auto_fail",
+      "bonus_value": "death",
+      "activation_method_general": "consumption",
+      "activation_method_specific": "eaten",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "single_trigger",
+      "duration_value": "physique_fail",
+      "notes": "Physique save or painful death"
+    },
+    {
+      "effect_id": "eff_holly_1",
+      "ward_id": "ward_holly",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+2",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "worn",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_holly_2",
+      "ward_id": "ward_holly",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+6",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "worn",
+      "applies_against_general": "elemental_energy_damage",
+      "applies_against_specific": "lightning",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_horses_1",
+      "ward_id": "ward_horses",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+3",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "skull_charm",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "1-in-6 chance of splitting per successful save"
+    },
+    {
+      "effect_id": "eff_horseshoes_1",
+      "ward_id": "ward_horseshoes",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+1",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "charm_carried",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "No effect if purchased for purpose"
+    },
+    {
+      "effect_id": "eff_ivy_1",
+      "ward_id": "ward_ivy",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+3",
+      "activation_method_general": "environmental",
+      "activation_method_specific": "inside_building",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Protects all inside; concurrent with charms"
+    },
+    {
+      "effect_id": "eff_mullein_1",
+      "ward_id": "ward_mullein",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+6",
+      "activation_method_general": "environmental",
+      "activation_method_specific": "within_candlelight",
+      "applies_against_general": "magic_users",
+      "applies_against_specific": "mortal_magic_users",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_oak_1",
+      "ward_id": "ward_oak",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+1",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "carried_acorns",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_oak_2",
+      "ward_id": "ward_oak",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+4",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "worn_leaf",
+      "applies_against_general": "mental_control",
+      "applies_against_specific": "illusion",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_oak_3",
+      "ward_id": "ward_oak",
+      "bonus_type": "conditional_bonus",
+      "bonus_value": "+6",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "shield_sacrificed",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "single_trigger",
+      "duration_value": "failed_save_only",
+      "notes": "Oak shield may be sacrificed to add +6 to failed save"
+    },
+    {
+      "effect_id": "eff_penises_1",
+      "ward_id": "ward_penises",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+1",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "charm_carried",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_penises_2",
+      "ward_id": "ward_penises",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+2",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "joke_made",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "single_trigger",
+      "duration_value": "ribald_joke_required",
+      "notes": null
+    },
+    {
+      "effect_id": "eff_pocket_figures_1",
+      "ward_id": "ward_pocket_figures",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+2",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "carved_figure",
+      "applies_against_general": "creature_specific",
+      "applies_against_specific": "story_specific_threat",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Heroes/Saints vs that which they overcame"
+    },
+    {
+      "effect_id": "eff_pocket_figures_2",
+      "ward_id": "ward_pocket_figures",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+1",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "carved_figure",
+      "applies_against_general": "creature_specific",
+      "applies_against_specific": "domain_specific_threat",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "Gods vs dominion or opposed forces"
+    },
+    {
+      "effect_id": "eff_rosemary_1",
+      "ward_id": "ward_rosemary",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+4",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "worn_or_carried",
+      "applies_against_general": "undead_spirit_threats",
+      "applies_against_specific": "incorporeal",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_rowan_1",
+      "ward_id": "ward_rowan",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+4",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "smeared_on_shield",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "fixed_time",
+      "duration_value": "~2_hours",
+      "notes": null
+    },
+    {
+      "effect_id": "eff_rue_1",
+      "ward_id": "ward_rue",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+3",
+      "activation_method_general": "ritual",
+      "activation_method_specific": "burned_and_inhaled",
+      "applies_against_general": "magic_users",
+      "applies_against_specific": "mortal_magic_users",
+      "duration_type": "fixed_time",
+      "duration_value": "4_hours",
+      "notes": "Breathers cannot cast spells during duration"
+    },
+    {
+      "effect_id": "eff_sulphur_1",
+      "ward_id": "ward_sulphur",
+      "bonus_type": "reroll_bonus",
+      "bonus_value": "+6",
+      "activation_method_general": "ritual",
+      "activation_method_specific": "burned_and_inhaled",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "single_trigger",
+      "duration_value": null,
+      "notes": "Physique save or lose d6 rounds vomiting"
+    },
+    {
+      "effect_id": "eff_verbena_1",
+      "ward_id": "ward_verbena",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+3",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "carried",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "single_trigger",
+      "duration_value": "flower_withers_after_save",
+      "notes": null
+    },
+    {
+      "effect_id": "eff_writing_1",
+      "ward_id": "ward_writing",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+1",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "written_marking",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "exact_description",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_writing_2",
+      "ward_id": "ward_writing",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+2",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "sea_beast_ink",
+      "applies_against_general": "creature_specific",
+      "applies_against_specific": "category_threat",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": "5HD+ creature source required"
+    },
+    {
+      "effect_id": "eff_writing_3",
+      "ward_id": "ward_writing",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+3",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "diamond_rune",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "phrase_specific",
+      "duration_type": "permanent",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_writing_4",
+      "ward_id": "ward_writing",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+1",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "tattoo",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "category_threat",
+      "duration_type": "permanent",
+      "duration_value": null,
+      "notes": "Up to two tattoos; second from higher HD source"
+    },
+    {
+      "effect_id": "eff_yarrow_1",
+      "ward_id": "ward_yarrow",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+6",
+      "activation_method_general": "body_application",
+      "activation_method_specific": "poultice",
+      "applies_against_general": "mental_control",
+      "applies_against_specific": "fear",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_yew_1",
+      "ward_id": "ward_yew",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+4",
+      "activation_method_general": "environmental",
+      "activation_method_specific": "beneath_tree",
+      "applies_against_general": "undead_spirit_threats",
+      "applies_against_specific": "incorporeal",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_yew_2",
+      "ward_id": "ward_yew",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+3",
+      "activation_method_general": "object_use",
+      "activation_method_specific": "yew_shield",
+      "applies_against_general": "general_universal",
+      "applies_against_specific": "all_magic",
+      "duration_type": "continuous",
+      "duration_value": null,
+      "notes": null
+    },
+    {
+      "effect_id": "eff_casting_away_2",
+      "ward_id": "ward_casting_away",
+      "bonus_type": "additive_bonus",
+      "bonus_value": "+3",
+      "activation_method_general": "ritual",
+      "activation_method_specific": "skull_split",
+      "applies_against_general": "magic_users",
+      "applies_against_specific": "mortal_magic_users",
+      "duration_type": "fixed_time",
+      "duration_value": "journey",
+      "notes": "Applies for duration of a journey"
+    }
+  ],
+  "locations": [
+    {
+      "ward_id": "ward_blood_bear",
+      "location_name": "Faroe",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_blood_bear",
+      "location_name": "Frania",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_blood_bird",
+      "location_name": "All",
+      "discovery_chance": 6
+    },
+    {
+      "ward_id": "ward_blood_cat",
+      "location_name": "Settlements",
+      "discovery_chance": 5
+    },
+    {
+      "ward_id": "ward_blood_cat",
+      "location_name": "Wilderness",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_blood_child",
+      "location_name": "Settlements",
+      "discovery_chance": 6
+    },
+    {
+      "ward_id": "ward_blood_dog",
+      "location_name": "Settlements",
+      "discovery_chance": 6
+    },
+    {
+      "ward_id": "ward_blood_dog",
+      "location_name": "Wilderness",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_blood_fish",
+      "location_name": "Water",
+      "discovery_chance": 5
+    },
+    {
+      "ward_id": "ward_blood_horse",
+      "location_name": "Settlements",
+      "discovery_chance": 5
+    },
+    {
+      "ward_id": "ward_blood_horse",
+      "location_name": "Wilderness",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_blood_whale",
+      "location_name": "Ocean",
+      "discovery_chance": 4
+    },
+    {
+      "ward_id": "ward_blood_wolf",
+      "location_name": "All",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Ruislip",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Fortu",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "The Black Strath",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Ergyng",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Hwicce",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Moerheb Weald",
+      "discovery_chance": 4
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Kark",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Abhaus",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Argadnel",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Ortaq",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Knartu",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Rhus",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Faroe",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Noos",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Cnivian Kingdom",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Frankia",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "Brecheliant & Amorica",
+      "discovery_chance": 4
+    },
+    {
+      "ward_id": "ward_betony",
+      "location_name": "The Marches",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_casting_away",
+      "location_name": "All",
+      "discovery_chance": 4
+    },
+    {
+      "ward_id": "ward_chanting",
+      "location_name": "All",
+      "discovery_chance": null
+    },
+    {
+      "ward_id": "ward_cold_stones",
+      "location_name": "All",
+      "discovery_chance": null
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Ruislip",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "The Black Strath",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Ergyng",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Hwicce",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Moerheb Weald",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Kark",
+      "discovery_chance": 4
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Abhaus",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Argadnel",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Ortaq",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Knartu",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Rhus",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Faroe",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Noos",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Cnivian Kingdom",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Frankia",
+      "discovery_chance": 5
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "Brecheliant & Amorica",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_cowslip",
+      "location_name": "The Marches",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_dragon_arum",
+      "location_name": "All",
+      "discovery_chance": null
+    },
+    {
+      "ward_id": "ward_dogs",
+      "location_name": "Settlements",
+      "discovery_chance": 6
+    },
+    {
+      "ward_id": "ward_dogs",
+      "location_name": "Wilderness",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_elecampane",
+      "location_name": "Cnivian Kingdom",
+      "discovery_chance": 4
+    },
+    {
+      "ward_id": "ward_elecampane",
+      "location_name": "Frankia",
+      "discovery_chance": 4
+    },
+    {
+      "ward_id": "ward_elecampane",
+      "location_name": "Brecheliant & Amorica",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_elecampane",
+      "location_name": "The Marches",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_eye_talismans",
+      "location_name": "All",
+      "discovery_chance": null
+    },
+    {
+      "ward_id": "ward_faces",
+      "location_name": "All",
+      "discovery_chance": null
+    },
+    {
+      "ward_id": "ward_gargoyles",
+      "location_name": "All",
+      "discovery_chance": null
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Ruislip",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Fortu",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "The Black Strath",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Ergyng",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Hwicce",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Moerheb Weald",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Kark",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Abhaus",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Argadnel",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Ortaq",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Knartu",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Rhus",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Faroe",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Noos",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Cnivian Kingdom",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Frankia",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "Brecheliant & Amorica",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_hazel",
+      "location_name": "The Marches",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Ruislip",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Fortu",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "The Black Strath",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Ergyng",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Hwicce",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Moerheb Weald",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Kark",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Abhaus",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Argadnel",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Ortaq",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Knartu",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Rhus",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Faroe",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Noos",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Cnivian Kingdom",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Frankia",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "Brecheliant & Amorica",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_hawthorn",
+      "location_name": "The Marches",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_heather",
+      "location_name": "Ruislip",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_heather",
+      "location_name": "Fortu",
+      "discovery_chance": 5
+    },
+    {
+      "ward_id": "ward_heather",
+      "location_name": "The Black Strath",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_heather",
+      "location_name": "Ergyng",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_heather",
+      "location_name": "Hwicce",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_heather",
+      "location_name": "Moerheb Weald",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_heather",
+      "location_name": "Kark",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_heather",
+      "location_name": "Abhaus",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_heather",
+      "location_name": "Argadnel",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_heather",
+      "location_name": "Ortaq",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_heather",
+      "location_name": "Knartu",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_hellebore",
+      "location_name": "Cnivian Kingdom",
+      "discovery_chance": 4
+    },
+    {
+      "ward_id": "ward_hellebore",
+      "location_name": "Eastern Frankia",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_hellebore",
+      "location_name": "Brecheliant & Amorica",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_herb_paris",
+      "location_name": "Cnivian Kingdom",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_herb_paris",
+      "location_name": "Frankia",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_herb_paris",
+      "location_name": "Brechliant & Amorica",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_herb_paris",
+      "location_name": "The Marches",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Ruislip",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Fortu",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "The Black Strath",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Ergyng",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Hwicce",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Moerheb Weald",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Kark",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Abhaus",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Argadnel",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Ortaq",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Knartu",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Rhus",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Faroe",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Noos",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Cnivian Kingdom",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Frankia",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "Brecheliant & Amorica",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_holly",
+      "location_name": "The Marches",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_horses",
+      "location_name": "Settlements",
+      "discovery_chance": 5
+    },
+    {
+      "ward_id": "ward_horses",
+      "location_name": "Wilderness",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_horseshoes",
+      "location_name": "Settlements",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_horseshoes",
+      "location_name": "Wilderness",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_ivy",
+      "location_name": "All",
+      "discovery_chance": 5
+    },
+    {
+      "ward_id": "ward_mullein",
+      "location_name": "Mountains",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_oak",
+      "location_name": "All",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_penises",
+      "location_name": "All",
+      "discovery_chance": null
+    },
+    {
+      "ward_id": "ward_pocket_figures",
+      "location_name": "All",
+      "discovery_chance": null
+    },
+    {
+      "ward_id": "ward_rosemary",
+      "location_name": "Monasteries and Churches",
+      "discovery_chance": 4
+    },
+    {
+      "ward_id": "ward_rowan",
+      "location_name": "Ruislip",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_rowan",
+      "location_name": "Fortu",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_rowan",
+      "location_name": "The Black Strath",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_rowan",
+      "location_name": "Ergyng",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_rowan",
+      "location_name": "Hwicce",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_rowan",
+      "location_name": "Moerheb Weald",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_rowan",
+      "location_name": "Kark",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_rowan",
+      "location_name": "Abhaus",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_rowan",
+      "location_name": "Faroe",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_rue",
+      "location_name": "Cnivian Kingdom",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_rue",
+      "location_name": "Roman Ruins",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_sulphur",
+      "location_name": "All",
+      "discovery_chance": null
+    },
+    {
+      "ward_id": "ward_verbena",
+      "location_name": "All",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_writing",
+      "location_name": "All",
+      "discovery_chance": null
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Ruislip",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Fortu",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "The Black Strath",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Ergyng",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Hwicce",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Moerheb Weald",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Kark",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Abhaus",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Argadnel",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Ortaq",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Knartu",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Rhus",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Faroe",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Noos",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Cnivian Kingdom",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Frankia",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "Brecheliant & Amorica",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_yarrow",
+      "location_name": "The Marches",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_yew",
+      "location_name": "Ruislip",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_yew",
+      "location_name": "Fortu",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_yew",
+      "location_name": "The Black Strath",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_yew",
+      "location_name": "Ergyng",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_yew",
+      "location_name": "Hwicce",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_yew",
+      "location_name": "Moerheb Weald",
+      "discovery_chance": 3
+    },
+    {
+      "ward_id": "ward_yew",
+      "location_name": "Rhus",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_yew",
+      "location_name": "Faroe",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_yew",
+      "location_name": "Cnivian Kingdom",
+      "discovery_chance": 1
+    },
+    {
+      "ward_id": "ward_yew",
+      "location_name": "Frankia",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_yew",
+      "location_name": "Brecheliant & Amorica",
+      "discovery_chance": 2
+    },
+    {
+      "ward_id": "ward_casting_away",
+      "location_name": "All",
+      "discovery_chance": null
+    }
+  ],
+  "lookups": {
+    "bonus_type": [
+      {
+        "id": "additive_bonus",
+        "display_name": "Additive Bonus",
+        "description": "Flat modifier to Warding",
+        "stacking": "stacks"
+      },
+      {
+        "id": "reroll_bonus",
+        "display_name": "Re-roll Bonus",
+        "description": "Re-roll save with modifier",
+        "stacking": "conditional"
+      },
+      {
+        "id": "scaling_bonus",
+        "display_name": "Scaling Bonus",
+        "description": "Bonus scales with condition",
+        "stacking": "conditional"
+      },
+      {
+        "id": "auto_success",
+        "display_name": "Automatic Success",
+        "description": "Save automatically succeeds",
+        "stacking": "single_use"
+      },
+      {
+        "id": "auto_fail",
+        "display_name": "Automatic Failure",
+        "description": "Save automatically fails",
+        "stacking": "severe"
+      },
+      {
+        "id": "conditional_bonus",
+        "display_name": "Conditional Bonus",
+        "description": "Applies only if condition met",
+        "stacking": "conditional"
+      }
+    ],
+    "duration_type": [
+      {
+        "id": "continuous",
+        "display_name": "Continuous",
+        "explanation": "Always active while condition met"
+      },
+      {
+        "id": "single_trigger",
+        "display_name": "Single Use",
+        "explanation": "Expires after triggering"
+      },
+      {
+        "id": "fixed_time",
+        "display_name": "Timed",
+        "explanation": "Lasts for defined duration"
+      },
+      {
+        "id": "permanent",
+        "display_name": "Permanent",
+        "explanation": "Lasts indefinitely"
+      }
+    ],
+    "activation_general": [
+      {
+        "id": "body_application",
+        "display_name": "Applied to body"
+      },
+      {
+        "id": "consumption",
+        "display_name": "Consumed"
+      },
+      {
+        "id": "environmental",
+        "display_name": "Environmental condition"
+      },
+      {
+        "id": "object_use",
+        "display_name": "Object-based"
+      },
+      {
+        "id": "ritual",
+        "display_name": "Ritual act"
+      }
+    ],
+    "applies_general": [
+      {
+        "id": "general_universal",
+        "display_name": "general"
+      },
+      {
+        "id": "mental_control",
+        "display_name": "mental control"
+      },
+      {
+        "id": "undead_spirit_threats",
+        "display_name": "undead & spirits"
+      },
+      {
+        "id": "magic_users",
+        "display_name": "magic users"
+      },
+      {
+        "id": "elemental_energy_damage",
+        "display_name": "elemental damage"
+      },
+      {
+        "id": "creature_specific",
+        "display_name": "creature specific"
+      }
+    ],
+    "applies_specific": [
+      {
+        "id": "all_magic",
+        "parent_general": "general_universal",
+        "display_name": "All Magic"
+      },
+      {
+        "id": "body_affecting",
+        "parent_general": "general_universal",
+        "display_name": "Body Affecting"
+      },
+      {
+        "id": "category_threat",
+        "parent_general": "general_universal",
+        "display_name": "Category Threat"
+      },
+      {
+        "id": "damage_magic",
+        "parent_general": "elemental_energy_damage",
+        "display_name": "Damage Magic"
+      },
+      {
+        "id": "disease_poison",
+        "parent_general": "elemental_energy_damage",
+        "display_name": "Disease Poison"
+      },
+      {
+        "id": "domain_specific_threat",
+        "parent_general": "creature_specific",
+        "display_name": "Domain Specific Threat"
+      },
+      {
+        "id": "elves",
+        "parent_general": "creature_specific",
+        "display_name": "Elves"
+      },
+      {
+        "id": "enchantment",
+        "parent_general": "general_universal",
+        "display_name": "Enchantment"
+      },
+      {
+        "id": "exact_description",
+        "parent_general": "general_universal",
+        "display_name": "Exact Description"
+      },
+      {
+        "id": "fear",
+        "parent_general": "mental_control",
+        "display_name": "Fear"
+      },
+      {
+        "id": "gaze_based",
+        "parent_general": "mental_control",
+        "display_name": "Gaze Based"
+      },
+      {
+        "id": "healing_magic",
+        "parent_general": "general_universal",
+        "display_name": "Healing Magic"
+      },
+      {
+        "id": "illusion",
+        "parent_general": "mental_control_effects",
+        "display_name": "Illusion"
+      },
+      {
+        "id": "incorporeal",
+        "parent_general": "undead_spirit_threats",
+        "display_name": "Incorporeal"
+      },
+      {
+        "id": "inhaled_effects",
+        "parent_general": "elemental_energy_damage",
+        "display_name": "Inhaled Effects"
+      },
+      {
+        "id": "legless_beasts",
+        "parent_general": "creature_specific",
+        "display_name": "Legless Beasts"
+      },
+      {
+        "id": "lightning",
+        "parent_general": "elemental_energy_damage",
+        "display_name": "Lightning"
+      },
+      {
+        "id": "mind_altering",
+        "parent_general": "mental_control_effects",
+        "display_name": "Mind Altering"
+      },
+      {
+        "id": "mobility_reducing",
+        "parent_general": "mental_control_effects",
+        "display_name": "Mobility Reducing"
+      },
+      {
+        "id": "mortal_magic_users",
+        "parent_general": "magic_users",
+        "display_name": "Mortal Magic Users"
+      },
+      {
+        "id": "paralysing_magic",
+        "parent_general": "mental_control_effects",
+        "display_name": "Paralysing Magic"
+      },
+      {
+        "id": "phrase_specific",
+        "parent_general": "general_universal",
+        "display_name": "Phrase Specific"
+      },
+      {
+        "id": "sea_monster",
+        "parent_general": "creature_specific",
+        "display_name": "Sea Monster"
+      },
+      {
+        "id": "serpentine",
+        "parent_general": "creature_specific",
+        "display_name": "Serpentine"
+      },
+      {
+        "id": "spells",
+        "parent_general": "general_universal",
+        "display_name": "Spells"
+      },
+      {
+        "id": "story_specific_threat",
+        "parent_general": "creature_specific",
+        "display_name": "Story Specific Threat"
+      },
+      {
+        "id": "unfamiliar_creature",
+        "parent_general": "creature_specific",
+        "display_name": "Unfamiliar Creature"
+      }
+    ],
+    "locations": [
+      {
+        "location_id": "abhaus",
+        "display_name": "Abhaus"
+      },
+      {
+        "location_id": "all",
+        "display_name": "All"
+      },
+      {
+        "location_id": "argadnel",
+        "display_name": "Argadnel"
+      },
+      {
+        "location_id": "brecheliant_and_amorica",
+        "display_name": "Brecheliant & Amorica"
+      },
+      {
+        "location_id": "brechliant_and_amorica",
+        "display_name": "Brechliant & Amorica"
+      },
+      {
+        "location_id": "cnivian_kingdom",
+        "display_name": "Cnivian Kingdom"
+      },
+      {
+        "location_id": "eastern_frankia",
+        "display_name": "Eastern Frankia"
+      },
+      {
+        "location_id": "ergyng",
+        "display_name": "Ergyng"
+      },
+      {
+        "location_id": "faroe",
+        "display_name": "Faroe"
+      },
+      {
+        "location_id": "fortu",
+        "display_name": "Fortu"
+      },
+      {
+        "location_id": "frania",
+        "display_name": "Frania"
+      },
+      {
+        "location_id": "frankia",
+        "display_name": "Frankia"
+      },
+      {
+        "location_id": "hwicce",
+        "display_name": "Hwicce"
+      },
+      {
+        "location_id": "kark",
+        "display_name": "Kark"
+      },
+      {
+        "location_id": "knartu",
+        "display_name": "Knartu"
+      },
+      {
+        "location_id": "moerheb_weald",
+        "display_name": "Moerheb Weald"
+      },
+      {
+        "location_id": "monasteries_and_churches",
+        "display_name": "Monasteries and Churches"
+      },
+      {
+        "location_id": "mountains",
+        "display_name": "Mountains"
+      },
+      {
+        "location_id": "noos",
+        "display_name": "Noos"
+      },
+      {
+        "location_id": "ocean",
+        "display_name": "Ocean"
+      },
+      {
+        "location_id": "ortaq",
+        "display_name": "Ortaq"
+      },
+      {
+        "location_id": "rhus",
+        "display_name": "Rhus"
+      },
+      {
+        "location_id": "roman_ruins",
+        "display_name": "Roman Ruins"
+      },
+      {
+        "location_id": "ruislip",
+        "display_name": "Ruislip"
+      },
+      {
+        "location_id": "settlements",
+        "display_name": "Settlements"
+      },
+      {
+        "location_id": "the_black_strath",
+        "display_name": "The Black Strath"
+      },
+      {
+        "location_id": "the_marches",
+        "display_name": "The Marches"
+      },
+      {
+        "location_id": "water",
+        "display_name": "Water"
+      },
+      {
+        "location_id": "wilderness",
+        "display_name": "Wilderness"
+      }
+    ]
+  }
+}

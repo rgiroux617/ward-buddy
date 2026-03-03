@@ -1,0 +1,113 @@
+let DATA = null;
+let selectedApplies = [];
+let searchTerm = "";
+
+fetch("warding_data.json")
+  .then(res => res.json())
+  .then(json => {
+    DATA = json;
+    populateFilters();
+    renderWards();
+  });
+
+function populateFilters() {
+  const container = document.getElementById("filter-applies");
+
+  DATA.lookups.applies_specific.forEach(item => {
+    const btn = document.createElement("button");
+    btn.className = "filter-btn";
+    btn.textContent = item.display_name;
+    btn.dataset.value = item.id;
+
+    btn.addEventListener("click", () => {
+      toggleFilter(item.id, btn);
+    });
+
+    container.appendChild(btn);
+  });
+}
+
+function toggleFilter(value, btn) {
+  if (selectedApplies.includes(value)) {
+    selectedApplies = selectedApplies.filter(v => v !== value);
+    btn.classList.remove("active");
+  } else {
+    selectedApplies.push(value);
+    btn.classList.add("active");
+  }
+
+  renderWards();
+}
+
+function renderWards() {
+  const container = document.getElementById("ward-container");
+  container.innerHTML = "";
+
+  // Step 1 — relational filtering
+  let wardIds = DATA.wards.map(w => w.ward_id);
+
+  if (selectedApplies.length > 0) {
+    const matchingEffects = DATA.effects.filter(e =>
+      selectedApplies.includes(e.applies_against_specific)
+    );
+
+    wardIds = [...new Set(matchingEffects.map(e => e.ward_id))];
+  }
+
+  let wardsToRender = DATA.wards.filter(w =>
+    wardIds.includes(w.ward_id)
+  );
+
+  // Step 2 — text search filtering
+  if (searchTerm.trim() !== "") {
+    wardsToRender = wardsToRender.filter(w => {
+      const combinedText =
+        (w.ward_name || "") +
+        " " +
+        (w.quote || "") +
+        " " +
+        (w.raw_text || "");
+
+      return combinedText.toLowerCase().includes(searchTerm);
+    });
+  }
+
+  wardsToRender.forEach(ward => {
+    const card = createWardCard(ward);
+    container.appendChild(card);
+  });
+}
+
+function createWardCard(ward) {
+  const div = document.createElement("div");
+  div.className = "ward-card";
+
+  const name = document.createElement("div");
+  name.className = "ward-name";
+  name.textContent = ward.ward_name;
+
+  const quote = document.createElement("div");
+  quote.className = "quote";
+  quote.textContent = ward.quote || "";
+
+  const raw = document.createElement("div");
+  raw.className = "raw-text";
+  raw.textContent = ward.raw_text || "";
+
+  name.addEventListener("click", () => {
+    raw.classList.toggle("show");
+  });
+
+  div.appendChild(name);
+  div.appendChild(quote);
+  div.appendChild(raw);
+
+  return div;
+}
+
+document
+  .getElementById("search-input")
+  .addEventListener("input", (e) => {
+    searchTerm = e.target.value.toLowerCase();
+    renderWards();
+  });

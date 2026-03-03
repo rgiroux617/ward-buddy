@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #c74545;
+  color: #eee;
+}
+
+header {
+  padding: 1rem;
+  background: #1c1c1c;
+  text-align: center;
+}
+
+#search {
+  padding: 1rem;
+  background: #181818;
+}
+
+#search-input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #222;
+  color: white;
+  font-size: 1rem;
+}
+
+#filters {
+  padding: 1rem;
+  background: #181818;
+}
+
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+#ward-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ward-card {
+  background: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.ward-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.quote {
+  font-style: italic;
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+
+.raw-text {
+  margin-top: 0.5rem;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.filter-group h3 {
+  margin-bottom: 0.5rem;
+}
+
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-btn {
+  padding: 0.4rem 0.6rem;
+  border-radius: 20px;
+  border: 1px solid #444;
+  background: #222;
+  color: #ccc;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background: #3a5cff;
+  color: white;
+  border-color: #3a5cff;
+}
