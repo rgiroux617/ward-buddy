@@ -1,3 +1,11 @@
+  /* WardBuddy CSS version 3-2-01 */
+/* Global box sizing rule */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
@@ -59,12 +67,21 @@ select {
   font-style: italic;
   margin: 0.5rem 0;
   opacity: 0.8;
+  /* display: none; */
 }
 
-.raw-text {
-  margin-top: 0.5rem;
+.collapsible {
   display: none;
 }
+
+.collapsible.show {
+  display: block;
+}
+
+/* .raw-text {
+  margin-top: 0.5rem;
+  display: none;
+} */
 
 .show {
   display: block;
@@ -94,4 +111,29 @@ select {
   background: #3a5cff;
   color: white;
   border-color: #3a5cff;
+}
+
+.highlight {
+  background: rgba(255, 217, 0, 0.85);
+  color: black;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* Masthead banner image at top (and endblock at bottom) */
+.masthead {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 0 14px 0;
+}
+
+.masthead img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.locations {
+  font-size: 0.85rem;
+  padding: 10px 0px
 }

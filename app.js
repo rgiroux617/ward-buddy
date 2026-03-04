@@ -1,3 +1,4 @@
+//  WardBuddy JS version 3-2-01
 let DATA = null;
 let selectedApplies = [];
 let searchTerm = "";
@@ -6,7 +7,7 @@ fetch("warding_data.json")
   .then(res => res.json())
   .then(json => {
     DATA = json;
-    populateFilters();
+    // populateFilters();
     renderWards();
   });
 
@@ -87,22 +88,49 @@ function createWardCard(ward) {
   name.textContent = ward.ward_name;
 
   const quote = document.createElement("div");
-  quote.className = "quote";
+  quote.className = "quote collapsible";
   quote.textContent = ward.quote || "";
 
+  const locations = document.createElement("div");
+  locations.className = "locations collapsible";
+  const locationRows = (DATA.locations || []).filter(loc => loc.ward_id === ward.ward_id);
+  const locationText = locationRows.length
+    ? "Locations: " + locationRows.map(l => l.location_name ?? l.location_id ?? "").filter(Boolean).join(", ")
+    : "";
+  locations.textContent = locationText;
+  console.log(ward.ward_id, "locations:", locationRows);
+ 
   const raw = document.createElement("div");
-  raw.className = "raw-text";
-  raw.textContent = ward.raw_text || "";
+
+  if (searchTerm) {
+    raw.innerHTML = highlightText(ward.raw_text || "", searchTerm);
+  } else {
+    raw.textContent = ward.raw_text || "";
+  }
 
   name.addEventListener("click", () => {
-    raw.classList.toggle("show");
+    quote.classList.toggle("show");
+    locations.classList.toggle("show");
   });
 
   div.appendChild(name);
   div.appendChild(quote);
+
   div.appendChild(raw);
+  div.appendChild(locations);
 
   return div;
+}
+
+function highlightText(text, term) {
+  if (!term) return text;
+
+  const escapedTerm = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(escapedTerm, "gi");
+
+  return text.replace(regex, match =>
+    `<span class="highlight">${match}</span>`
+  );
 }
 
 document
