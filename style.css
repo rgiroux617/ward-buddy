@@ -1,4 +1,4 @@
-  /* WardBuddy CSS version 3-2-01 */
+  /* WardBuddy CSS version 3-6-01 */
 /* Global box sizing rule */
 *,
 *::before,
@@ -20,16 +20,18 @@ header {
 }
 
 #search {
-  padding: 1rem;
-  background: #181818;
+  padding: 12px;
+  background: #c74545;
+  max-width: 420px;
+  margin: 0 auto;
 }
 
 #search-input {
   width: 100%;
-  padding: 0.6rem;
+  padding: 12px 14px;
   border-radius: 8px;
-  border: 1px solid #333;
-  background: #222;
+  border: none;
+  background: #1e1e1e;
   color: white;
   font-size: 1rem;
 }
@@ -59,8 +61,15 @@ select {
 }
 
 .ward-name {
+  text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
+
+  background: #393838;
+  padding: 10px 0px;
+  border-radius: 8px;
+
+  cursor: pointer;
 }
 
 .quote {
@@ -76,6 +85,10 @@ select {
 
 .collapsible.show {
   display: block;
+}
+
+.dougs-grade.collapsible.show {
+  display: flex;
 }
 
 /* .raw-text {
@@ -114,8 +127,9 @@ select {
 }
 
 .highlight {
-  background: rgba(255, 217, 0, 0.85);
-  color: black;
+  /* background: var(--active-highlight-color, rgba(255, 217, 0, 0.65)); */
+  background: color-mix(in srgb, var(--active-highlight-color) 55%, transparent);
+  color: rgb(255, 255, 255);
   padding: 0 2px;
   border-radius: 2px;
 }
@@ -135,5 +149,148 @@ select {
 
 .locations {
   font-size: 0.85rem;
-  padding: 10px 0px
+  padding-top: 18px;
+}
+
+#icon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 12px;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+#icon-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.icon-label {
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.icon-btn {
+  border: 1px solid white;
+  border-radius: 8px;
+  background: none;
+  padding: 6px 8px 6px 8px;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  --glow-color: white;
+}
+
+.icon-btn img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* glow on hover (desktop) and press (mobile) */
+.icon-btn:hover,
+.icon-btn:active {
+  animation: glowPulse 2.5s infinite;
+}
+
+@keyframes glowPulse {
+  0% {
+    box-shadow:
+      0 0 6px var(--glow-color),
+      0 0 14px var(--glow-color),
+      0 0 28px var(--glow-color);
+  }
+
+  50% {
+    box-shadow:
+      0 0 12px var(--glow-color),
+      0 0 26px var(--glow-color),
+      0 0 50px var(--glow-color);
+  }
+
+  100% {
+    box-shadow:
+      0 0 6px var(--glow-color),
+      0 0 14px var(--glow-color),
+      0 0 28px var(--glow-color);
+  }
+}
+
+.modal[hidden] {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-card {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  width: min(420px, 92vw);
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+#locations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#locations-list button {
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: white;
+}
+
+#locations-list button:hover {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.ward-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.dougs-grade {
+  width: 36px;
+  height: 24px;
+
+  
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: white;
+
+  flex-shrink: 0;
 }

@@ -1,16 +1,16 @@
-<!-- WardBuddy CSS version 3-2-01 -->
+<!-- WardBuddy CSS version 3-6-01 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>WardBuddy</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=1" />
 </head>
 <body>
 
   <div class="masthead">
-    <img id="titleBlockImg" src="TitleBlock.png?v=1" alt="WardBuddy">
+    <img id="titleBlockImg" src="TitleBlock.png?v=2" alt="WardBuddy">
   </div>
 
   <!-- <header>
@@ -20,19 +20,76 @@
   <section id="search">
     <input type="text" id="search-input" placeholder="Search wards..." />
   </section>
-<!-- <section id="filters">
-  <div class="filter-group">
-    <h3>Applies Against</h3>
-    <div id="filter-applies" class="button-grid"></div>
-  </div>
-</section> -->
+
+  <section id="icon-grid">
+
+    <button class="icon-btn" data-action="wardoftheday">
+      <img src="wardofthedayicon.png">
+    </button>
+
+    <button class="icon-btn" data-action="blood">
+      <img src="bloodicon.png">
+      <div class="icon-label">Blood</div>
+    </button>
+
+    <button class="icon-btn" data-action="wilderness">
+      <img src="wildernessicon.png">
+      <div class="icon-label">From the Woods</div>
+    </button>
+
+    <button class="icon-btn" data-action="ghost">
+      <img src="ghosticon.png">
+      <div class="icon-label">Incorporeal</div>
+    </button>
+
+    <button class="icon-btn" data-action="creature">
+      <img src="creatureicon.png">
+      <div class="icon-label">Creatures</div>
+    </button>
+
+    <button class="icon-btn" data-action="mental">
+      <img src="mentalicon.png">
+      <div class="icon-label">Mental</div>
+    </button>
+
+    <button class="icon-btn" data-action="ritual">
+      <img src="ritualicon.png">
+      <div class="icon-label">Rituals</div>
+    </button>
+
+    <button class="icon-btn" data-action="plant">
+      <img src="planticon.png">
+      <div class="icon-label">Plants</div>
+    </button>
+
+    <button class="icon-btn" data-action="locations">
+      <img src="locationicon.png">
+      <div class="icon-label">Locations</div>
+    </button>
+
+  </section>
 
   <main id="ward-container"></main>
 
   <div class="masthead">
-    <img id="titleBlockImg" src="EndBlock.png?v=1" alt="WardBuddy">
+    <img id="titleBlockImg" src="EndBlock.png?v=2" alt="WardBuddy">
   </div>
 
-  <script src="app.js"></script>
+  <div id="locations-modal" class="modal" hidden>
+  
+    <div class="modal-card">
+  
+      <div class="modal-header">
+        <h2>Locations</h2>
+        <button id="close-locations">✕</button>
+      </div>
+  
+      <div id="locations-list"></div>
+  
+    </div>
+  
+  </div>
+
+  <script src="app.js?v=1"></script>
 </body>
 </html>
