@@ -155,8 +155,25 @@ function createWardCard(ward) {
   name.textContent = ward.ward_name;
 
   const quote = document.createElement("div");
-  quote.className = "quote collapsible";
+  quote.className = "quote";
   quote.textContent = ward.quote || "";
+
+  const quoteRow = document.createElement("div");
+  quoteRow.className = "quote-row collapsible";
+
+  const wardIcon = document.createElement("img");
+  wardIcon.className = "ward-icon";
+  wardIcon.onerror = () => wardIcon.style.display = "none";
+  const iconFile = ward.ward_name
+    .toLowerCase()
+    .replace(/\s+/g, "_")
+    .replace(/-/g, "_") + ".png";
+
+  wardIcon.src = "wardicons/" + iconFile;
+  wardIcon.alt = `${ward.ward_name} icon`;
+
+  quoteRow.appendChild(quote);
+  quoteRow.appendChild(wardIcon);
 
   const locations = document.createElement("div");
   locations.className = "locations collapsible";
@@ -167,12 +184,16 @@ function createWardCard(ward) {
   locations.textContent = locationText;
   console.log(ward.ward_id, "locations:", locationRows);
 
-  const grade = document.createElement("div");
+  const grade = document.createElement("button");
   grade.className = "dougs-grade collapsible";
 
   const value = ward.dougs_grade ?? "";
 
   grade.textContent = value;
+
+  grade.addEventListener("click", () => {
+    document.getElementById("dougModal").hidden = false;
+  });
 
   const valueNum = Number(ward.dougs_grade);
 
@@ -195,13 +216,13 @@ function createWardCard(ward) {
   }
 
   name.addEventListener("click", () => {
-    quote.classList.toggle("show");
+    quoteRow.classList.toggle("show");
     locations.classList.toggle("show");
     grade.classList.toggle("show");
   });
 
   div.appendChild(name);
-  div.appendChild(quote);
+  div.appendChild(quoteRow);
 
   const bottomRow = document.createElement("div");
   bottomRow.className = "ward-bottom";
@@ -460,3 +481,12 @@ document.querySelectorAll(".icon-btn").forEach(btn => {
   );
 
 });
+
+const dougModal = document.getElementById("dougModal");
+
+document.querySelectorAll(".dougModalClose").forEach(btn => {
+  btn.addEventListener("click", () => {
+    dougModal.hidden = true;
+  });
+});
+

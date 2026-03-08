@@ -128,23 +128,29 @@ select {
 
 .highlight {
   /* background: var(--active-highlight-color, rgba(255, 217, 0, 0.65)); */
-  background: color-mix(in srgb, var(--active-highlight-color) 55%, transparent);
+  background: color-mix(in srgb, var(--active-highlight-color) 25%, transparent);
   color: rgb(255, 255, 255);
   padding: 0 2px;
   border-radius: 2px;
 }
 
 /* Masthead banner image at top (and endblock at bottom) */
-.masthead {
+/* .masthead {
   width: 100%;
   max-width: 420px;
   margin: 0 0 14px 0;
-}
+} */
 
 .masthead img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+#masthead {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto 14px auto;
 }
 
 .locations {
@@ -246,11 +252,37 @@ select {
   overflow-y: auto;
 }
 
+.bugmanModalCard {
+  background: #f7eebe;
+  padding: 20px;
+  border-radius: 10px;
+  width: min(420px, 92vw);
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
 .modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 12px;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.bugmanModalHeader {
+  /* display: flex; */
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-bottom: 22px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+  text-align: center;
 }
 
 #locations-list {
@@ -280,8 +312,8 @@ select {
 }
 
 .dougs-grade {
-  width: 36px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
 
   
   align-items: center;
@@ -289,8 +321,79 @@ select {
 
   border-radius: 6px;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: white;
 
   flex-shrink: 0;
+}
+
+.quote-row {
+  display: none;
+  gap: 12px;
+  align-items: flex-start;
+  margin: 0.5rem 0;
+}
+
+.quote-row.show {
+  display: flex;
+}
+
+.quote {
+  flex: 1;
+  min-width: 0;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.ward-icon {
+  width: 64px;
+  height: 64px;
+  flex: 0 0 64px;
+  object-fit: contain;
+  display: block;
+  opacity: 0;
+  transform: translateX(10px);
+}
+
+.quote-row.show .ward-icon {
+  animation: wardIconFade 220ms ease forwards;
+}
+
+@keyframes wardIconFade {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.dougGradeBtn {
+  border: none;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* for the bugman offers */
+.netScreed {
+  font-size: 18px;
+  line-height: 1.35;
+  text-align: left;
+  padding: 8px 6px;
+  color: black
+}
+
+.dougModalClose {
+  padding: 0.4rem 0.6rem;
+    border-radius: 20px;
+    border: 1px solid #444;
+    background: #222;
+    color: #ccc;
+    font-size: 1.4rem;
+    cursor: pointer;
 }
