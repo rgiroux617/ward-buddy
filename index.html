@@ -4,16 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <link rel="apple-touch-icon" href="iphoneIcon.png">
   <title>WARD BUDDY ©2026 Bugman Industries LLC</title>
-  <title>WardBuddy</title>
-  <link rel="stylesheet" href="style.css?v=1" />
+  <link rel="stylesheet" href="styles.css?v=2" />
+  <!-- <link rel="stylesheet" href="../BugmanAds/ads.css"> -->
+  <!-- toggle for github use -->
+  <link rel="stylesheet" href="https://rgiroux617.github.io/bugman-ads/ads.css">
 </head>
 <body>
 
   <div class="masthead">
-    <img id="titleBlockImg" src="TitleBlock.png?v=2" alt="WardBuddy">
+    <img id="titleBlockImg" src="TitleBlock.gif?v=2" alt="WardBuddy">
   </div>
 
   <!-- <header>
@@ -72,6 +74,28 @@
 
   </section>
 
+  <div class="ad-wrapper">
+    <div class="ad-slot" data-ad="bugman-wards"></div>
+  </div>
+
+    <!-- Shared Ad Modal -->
+    
+    <div id="adModal" class="ad-modal hidden">
+    
+      <div id="adCard" class="ad-card">
+    
+        <div id="adKicker" class="ad-kicker"></div>
+    
+        <h2 id="adTitle"></h2>
+    
+        <div id="adBody"></div>
+    
+        <div id="adFooter"></div>
+    
+      </div>
+    
+    </div>
+
   <main id="ward-container"></main>
 
   <div class="masthead">
@@ -103,8 +127,8 @@
   
       <div class="bugmanModalBody">
         <div class="netScreed">
-          Subscribe to Douglas Tran's "North Sea Bounty" substack for insights on all things 
-          survival related in the greater archipelago, including the Bugman's patented ward grading system©, 
+          Subscribe to Douglas Tran's <b>North Sea Bounty</b> Substack for insights on all things 
+          survival related in the greater archipelago, including the Bugman's patented <i>ward grading system©</i>, 
           sure to guide you to just the right ward for whatever freaky ass shit you are getting up to.
         </div>
   
@@ -121,6 +145,9 @@
     </div>
   </div>
 
-  <script src="app.js?v=1"></script>
+  <script src="app.js?v=2"></script>
+  <!-- <script type="module" src="../BugmanAds/ad-engine.js"></script> -->
+  <!-- toggle for github use -->
+  <script type="module" src="https://rgiroux617.github.io/bugman-ads/ad-engine.js"></script>
 </body>
 </html>

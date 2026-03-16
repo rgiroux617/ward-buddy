@@ -1210,7 +1210,7 @@
     },
     {
       "ward_id": "ward_blood_bear",
-      "location_name": "Frania",
+      "location_name": "Frankia",
       "discovery_chance": 1.0
     },
     {
@@ -1770,7 +1770,7 @@
     },
     {
       "ward_id": "ward_herb_paris",
-      "location_name": "Brechliant & Amorica",
+      "location_name": "Brecheliant & Amorica",
       "discovery_chance": 1.0
     },
     {

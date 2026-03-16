@@ -1,4 +1,4 @@
-//  WardBuddy JS version 3-6-02
+//  WardBuddy JS version 3-16-01
 let DATA = null;
 let selectedApplies = [];
 let searchTerm = "";
@@ -107,6 +107,36 @@ function toggleFilter(value, btn) {
   renderWards();
 }
 
+// this function helps populate ads within the search/filter results (builds the same <div>> in html)
+function createAdSlot(adId) {
+  const slot = document.createElement("div");
+  slot.className = "ad-slot";
+  slot.dataset.ad = adId;
+  return slot;
+}
+
+function renderWardList(wards) {
+  const container = document.getElementById("ward-container");
+  container.innerHTML = "";
+
+  wards.forEach((ward, index) => {
+    const card = createWardCard(ward);
+    container.appendChild(card);
+
+    if (index === 2 && wards.length > 3) {
+      container.appendChild(createAdSlot("visit-lothing"));
+    }
+
+    if (index === 4 && wards.length > 5) {
+      container.appendChild(createAdSlot("bugmans-picks"));
+    }
+  });
+
+  if (window.refreshAds) {
+    window.refreshAds();
+  }
+}
+
 function renderWards() {
   const container = document.getElementById("ward-container");
   container.innerHTML = "";
@@ -140,10 +170,8 @@ function renderWards() {
     });
   }
 
-  wardsToRender.forEach(ward => {
-    const card = createWardCard(ward);
-    container.appendChild(card);
-  });
+  renderWardList(wardsToRender);
+
 }
 
 function createWardCard(ward) {
@@ -309,45 +337,24 @@ function handleIconAction(action) {
 }
 
 function showRandomWard() {
-
-  const container = document.getElementById("ward-container");
-  container.innerHTML = "";
-
   const wards = DATA.wards;
-
   const randomIndex = Math.floor(Math.random() * wards.length);
-
   const ward = wards[randomIndex];
 
-  const card = createWardCard(ward);
-
-  container.appendChild(card);
-
+  renderWardList([ward]);
 }
 
 function filterWardCategory(category) {
-
   activeHighlightTerms = highlightTerms[category] || [];
-
-  const container = document.getElementById("ward-container");
-  container.innerHTML = "";
 
   const filtered = DATA.wards.filter(
     w => w.ward_category === category
   );
 
-  filtered.forEach(ward => {
-    const card = createWardCard(ward);
-    container.appendChild(card);
-  });
-
+  renderWardList(filtered);
 }
 
 function filterLocation(locationName) {
-
-  const container = document.getElementById("ward-container");
-  container.innerHTML = "";
-
   const locationRows = DATA.locations.filter(
     loc => loc.location_name === locationName
   );
@@ -358,19 +365,11 @@ function filterLocation(locationName) {
     w => wardIds.includes(w.ward_id)
   );
 
-  wards.forEach(ward => {
-    const card = createWardCard(ward);
-    container.appendChild(card);
-  });
-
+  renderWardList(wards);
 }
 
 function filterAppliesGeneral(type) {
-
   activeHighlightTerms = highlightTerms[type] || [];
-
-  const container = document.getElementById("ward-container");
-  container.innerHTML = "";
 
   const effectRows = DATA.effects.filter(
     e => e.applies_against_general === type
@@ -379,18 +378,14 @@ function filterAppliesGeneral(type) {
   if (effectRows.length === 0) {
     console.warn("No effects found for:", type);
   }
-  
+
   const wardIds = [...new Set(effectRows.map(e => e.ward_id))];
 
   const wards = DATA.wards.filter(
     w => wardIds.includes(w.ward_id)
   );
 
-  wards.forEach(ward => {
-    const card = createWardCard(ward);
-    container.appendChild(card);
-  });
-
+  renderWardList(wards);
 }
 
 function openLocationsModal() {
